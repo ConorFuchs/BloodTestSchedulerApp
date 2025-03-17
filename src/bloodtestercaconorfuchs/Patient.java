@@ -22,6 +22,27 @@ public class Patient {
         this.age = age;
         this.fromHospitalWard = fromHospitalWard;
     }
+
+    //adding getters
+    public String getName() {
+        return name;
+    }
+
+    public String getPriority() {
+        return priority;
+    }
+
+    public String getGpDetails() {
+        return gpDetails;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public boolean isFromHospitalWard() {
+        return fromHospitalWard;
+    }
     
     
 }

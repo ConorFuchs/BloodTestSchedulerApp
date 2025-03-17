@@ -13,24 +13,29 @@ import java.util.LinkedList;
  */
 public class MyQueue<T> implements QueueInterface<T>{
     // gonna use this queue for tracking 5 no shows FIFO method
-    private LinkedList<T> queue;
-
+    private LinkedList<T> queue; //linked list to store queue elements
+    private static final int MAX_SIZE = 5; //have the max size of no show list be 5
+    
+    //declare constructor
     public MyQueue(LinkedList<T> queue) {
         this.queue = queue;
     }
     
-    @Override
-    public void enqueue(T item){//will finish implementing this later just setting up
-        
+    @Override //add patient to no show list
+    public void enqueue(T item){
+        if (queue.size() == MAX_SIZE){ //if no show Q is 5 remove last 1 in fifo style
+            queue.poll(); //remove first element in queue
+        }
+        queue.add(item); //add patient to no show list at the end of q
     }
     
-    @Override
+    @Override //remove first patient from noshow list
     public T dequeue(){
-        return null; //here till i fix issue and create method
+        return queue.poll();
     }
     
-    @Override
+    @Override //check if list is empty
     public boolean isEmpty(){
-        return false;//here till i fix issue and create method
+        return queue.isEmpty();//returns true if queues empty
     }
 }
