@@ -16,9 +16,9 @@ public class MyQueue<T> implements QueueInterface<T>{
     private LinkedList<T> queue; //linked list to store queue elements
     private static final int MAX_SIZE = 5; //have the max size of no show list be 5
     
-    //declare constructor
-    public MyQueue(LinkedList<T> queue) {
-        this.queue = queue;
+    //declare constructor to have the queue be an empty linked list
+    public MyQueue() {
+        this.queue = new LinkedList<>();
     }
     
     @Override //add patient to no show list

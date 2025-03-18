@@ -20,15 +20,15 @@ public class MyPriorityQ implements PriorityQInterface<Patient>{
         pq = new PriorityQueue<>(Comparator
         .comparing((Patient p) -> {
             switch (p.getPriority()){
-                case "urgent": return 1; //urgent patients are 1st priority
-                case "medium": return 2; //2nd priority
+                case "Urgent": return 1; //urgent patients are 1st priority
+                case "Medium": return 2; //2nd priority
                 default: return 3; //low priority last
             }
         })
             //if patients are same priority, use age to compare, older is more priority
-            .thenComparing(p -> -p.getAge())
-            //if age is the same can check if theyre from hospital ward or not, patients not from one are higher prio
-            .thenComparing(p -> !p.isFromHospitalWard()));
+            .thenComparing(Patient::getAge, Comparator.reverseOrder()) 
+            //if age is the same can check if theyre from hospital ward or not, patients from one are higher prio
+            .thenComparing(Patient::isFromHospitalWard, Comparator.reverseOrder()));
     }
   
     //add new patient to PQ
@@ -49,7 +49,5 @@ public class MyPriorityQ implements PriorityQInterface<Patient>{
     public boolean isEmpty(){
         return pq.isEmpty();
     }
-    
-    
-    
+        
 }

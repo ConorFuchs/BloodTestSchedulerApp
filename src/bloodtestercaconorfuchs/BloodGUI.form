@@ -47,58 +47,59 @@
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace min="0" pref="136" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="106" max="32767" attributes="0"/>
                   <Component id="viewPatBTN" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Component id="nextPatBTN" min="-2" max="-2" attributes="0"/>
+                  <Component id="patDoneBTN" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Component id="noShowBTN" min="-2" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="219" max="-2" attributes="0"/>
               </Group>
               <Group type="102" alignment="1" attributes="0">
                   <Group type="103" groupAlignment="1" attributes="0">
-                      <Component id="noShowTA" alignment="0" max="32767" attributes="0"/>
                       <Component id="queueTA" alignment="1" max="32767" attributes="0"/>
                       <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" attributes="0">
-                                  <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="nameLBL" alignment="0" min="-2" pref="37" max="-2" attributes="0"/>
-                                      <Component id="ageLBL" alignment="0" min="-2" pref="37" max="-2" attributes="0"/>
-                                      <Component id="priorityLBL" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="gpLBL" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="hospLBL" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="hospCB" min="-2" pref="85" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                          <Component id="gpTF" pref="235" max="32767" attributes="0"/>
-                                          <Component id="ageTF" pref="235" max="32767" attributes="0"/>
-                                          <Component id="nameTF" max="32767" attributes="0"/>
-                                          <Component id="priorityCB" alignment="0" max="32767" attributes="0"/>
-                                      </Group>
-                                      <Component id="addBTN" alignment="0" min="-2" pref="235" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
+                              <Component id="nameLBL" alignment="0" min="-2" pref="37" max="-2" attributes="0"/>
+                              <Component id="ageLBL" alignment="0" min="-2" pref="37" max="-2" attributes="0"/>
+                              <Component id="priorityLBL" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="gpLBL" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="hospLBL" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="hospCB" min="-2" pref="85" max="-2" attributes="0"/>
+                              <Component id="addBTN" alignment="0" min="-2" pref="235" max="-2" attributes="0"/>
                               <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="236" max="-2" attributes="0"/>
-                                  <Component id="titleLBL" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="233" max="-2" attributes="0"/>
-                                  <Component id="queueLBL" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="gpTF" pref="235" max="32767" attributes="0"/>
+                                      <Component id="ageTF" pref="235" max="32767" attributes="0"/>
+                                      <Component id="nameTF" max="32767" attributes="0"/>
+                                      <Component id="priorityCB" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="exitBTN" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="236" max="-2" attributes="0"/>
+                          <Component id="titleLBL" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="233" max="-2" attributes="0"/>
+                          <Component id="queueLBL" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="noShowTA" alignment="0" max="32767" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
-              <Group type="102" alignment="0" attributes="0">
+              <Group type="102" attributes="0">
                   <EmptySpace min="-2" pref="221" max="-2" attributes="0"/>
                   <Component id="noShowLBL" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="listNoShowBTN" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
@@ -112,6 +113,7 @@
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="nameLBL" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="nameTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="exitBTN" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
@@ -142,14 +144,17 @@
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="viewPatBTN" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="nextPatBTN" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="patDoneBTN" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="noShowBTN" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Component id="noShowLBL" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="noShowLBL" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="listNoShowBTN" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="noShowTA" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="33" max="32767" attributes="0"/>
+                  <EmptySpace pref="17" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -157,6 +162,9 @@
       <SubComponents>
         <Component class="javax.swing.JLabel" name="titleLBL">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="14" style="1"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Blood Test Center"/>
           </Properties>
         </Component>
@@ -187,12 +195,21 @@
         </Component>
         <Component class="javax.swing.JButton" name="addBTN">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Add Patient"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addBTNActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JTextField" name="nameTF">
         </Component>
         <Component class="javax.swing.JTextField" name="ageTF">
+          <Events>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="ageTFKeyPressed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JTextField" name="gpTF">
         </Component>
@@ -200,9 +217,9 @@
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
               <StringArray count="3">
-                <StringItem index="0" value="Urgent"/>
+                <StringItem index="0" value="Low"/>
                 <StringItem index="1" value="Medium"/>
-                <StringItem index="2" value="Low"/>
+                <StringItem index="2" value="Urgent"/>
               </StringArray>
             </Property>
           </Properties>
@@ -222,7 +239,7 @@
 
           <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
           <SubComponents>
-            <Component class="javax.swing.JTextArea" name="jTextArea1">
+            <Component class="javax.swing.JTextArea" name="queueTxtA">
               <Properties>
                 <Property name="columns" type="int" value="20"/>
                 <Property name="rows" type="int" value="5"/>
@@ -232,26 +249,50 @@
         </Container>
         <Component class="javax.swing.JLabel" name="queueLBL">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="14" style="1"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="List of Patients"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="viewPatBTN">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="View Queue"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="viewPatBTNActionPerformed"/>
+          </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="nextPatBTN">
+        <Component class="javax.swing.JButton" name="patDoneBTN">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Next Patient"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Patient Finished"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="patDoneBTNActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="noShowBTN">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="No Show"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="noShowBTNActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JLabel" name="noShowLBL">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="14" style="1"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Recent No Shows:"/>
           </Properties>
         </Component>
@@ -262,7 +303,7 @@
 
           <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
           <SubComponents>
-            <Component class="javax.swing.JTextArea" name="jTextArea2">
+            <Component class="javax.swing.JTextArea" name="noShowTxtA">
               <Properties>
                 <Property name="columns" type="int" value="20"/>
                 <Property name="rows" type="int" value="5"/>
@@ -270,6 +311,28 @@
             </Component>
           </SubComponents>
         </Container>
+        <Component class="javax.swing.JButton" name="exitBTN">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Exit"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="exitBTNActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="listNoShowBTN">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="List No Shows"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="listNoShowBTNActionPerformed"/>
+          </Events>
+        </Component>
       </SubComponents>
     </Container>
   </SubComponents>
